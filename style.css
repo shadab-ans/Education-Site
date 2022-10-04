@@ -1,0 +1,90 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body p {
+  color: rgb(150, 147, 147);
+}
+
+.social {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social i:hover {
+  cursor: pointer;
+  color: darkgray;
+}
+
+.carousel-inner img {
+  height: 50%;
+}
+
+.features .card:hover {
+  cursor: pointer;
+  display: inline-block;
+  transition-property: transform;
+  transition-duration: 0.4s;
+  transform: translateY(-10px);
+  color: white;
+  border-radius: 2px;
+  background-color: black;
+}
+
+.department .card:hover {
+  cursor: pointer;
+  display: inline-block;
+  transition-property: transform;
+  transition-duration: 0.4s;
+  transform: translateY(-10px);
+  border-radius: 2px;
+}
+
+.social-contact i:hover {
+  cursor: pointer;
+  color: rgb(220, 53, 69);
+}
+
+.insta-pics img:hover {
+  cursor: pointer;
+}
+
+.footer {
+  height: 70px;
+}
+
+.footer p {
+  line-height: 70px;
+}
+
+.footer p:hover {
+    cursor: pointer;
+}
+
+/* Phone Screen */
+@media (min-width: 768px) and (max-width: 991px) {
+  .social {
+    display: none;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .social {
+    display: none;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 574px) {
+  .social {
+    display: none;
+  }
+}
+
+@media (max-width: 479px) {
+  .social {
+    display: none;
+  }
+}
